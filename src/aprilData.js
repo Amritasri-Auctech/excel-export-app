@@ -1,0 +1,68 @@
+export const aprilData = {
+  members: {
+    dawami: [
+      { SNo: 1, MemberNo: 40465, Name: "Adv.Sikander Raza.", Address: "Mohalla-Pachdara,Amroha-244221", Amount: 1500, Motivator: "Mr.Syed Ali Zaheen Naqvi." },
+      { SNo: 2, MemberNo: 40512, Name: "Mr.Syed Khursheed Haider Husaini.", Address: "546/43,Sarfarazganj,Lucknow-226003", Amount: 2500, Motivator: "Mr.Syed Ainul Raza Kararvi." },
+      { SNo: 3, MemberNo: 40513, Name: "Mr.Syed Mohd Taqui.", Address: "Village-Gauri Khalsa,Subhan Khera,Hardoi-241305", Amount: 2500, Motivator: "Mr.Syed Ainul Raza Kararvi." },
+    ],
+    life: [
+      { SNo: 1, MemberNo: 40510, Name: "Mr.Shabihul Hasnain Taqvi.", Address: "Mohalla-Lakra,Amroha-244221", Amount: 1500, Motivator: "Mr.Syed Ali Zaheen Naqvi." },
+      { SNo: 2, MemberNo: 40511, Name: "Mr.Syed Sardar Husain.", Address: "Bagh Nayaganj,Karari Kaushambi-212206", Amount: 1500, Motivator: "Mr.Nazir Haider." },
+    ],
+    umoomi: [
+      { SNo: 1, MemberNo: 40508, Name: "Mr.Mohd Ayaz Anwar.", Address: "Near Habibshah Mazar,Habibpur,Bhagalpur", Amount: 120, Motivator: "Mr.Mohd Anwar Ali." },
+      { SNo: 2, MemberNo: 40509, Name: "Mr.Mohd Ejaz Anwar.", Address: "Near Habibshah Mazar,Habibpur,Bhagalpur", Amount: 120, Motivator: "Mr.Mohd Anwar Ali." },
+      { SNo: 3, MemberNo: 38260, Name: "Late.Ghulam Abbas.", Address: "Karari,Kaushambi.", Amount: 120, Motivator: "Mr.Nazir Haider." },
+      { SNo: 4, MemberNo: 38261, Name: "Late.Raees Fatima.", Address: "Karari,Kaushambi.", Amount: 120, Motivator: "Mr.Nazir Haider." },
+      { SNo: 5, MemberNo: 39741, Name: "Late.Tatheer Fatima.", Address: "Karari,Kaushambi.", Amount: 30, Motivator: "Mr.Nazir Haider." },
+      { SNo: 6, MemberNo: 39741, Name: "Late.Tatheer Fatima.", Address: "Karari,Kaushambi.", Amount: 30, Motivator: "Mr.Nazir Haider." },
+      { SNo: 7, MemberNo: 39741, Name: "Late.Tatheer Fatima.", Address: "Karari,Kaushambi.", Amount: 30, Motivator: "Mr.Nazir Haider." },
+      { SNo: 8, MemberNo: 36836, Name: "Mr.Karrar Husain.", Address: "Karari,Kaushambi.", Amount: 120, Motivator: "Mr.Nazir Haider." },
+      { SNo: 9, MemberNo: 38197, Name: "Mr.Zafrul Hasan.", Address: "Karari,Kaushambi.", Amount: 120, Motivator: "Mr.Nazir Haider." },
+    ],
+  },
+  ayanat: [
+    { SNo: 1, Name: "Mr.Syed Ahtesham Haider.", Place: "Bhopal", Amount: 500, Motivator: "Prof.Mohd Mohsin." },
+  ],
+  returnOfLoan: [
+    { SNo: 1, WazifaNo: 8942, Name: "Dr.Irfana Jabeen.", Place: "Sri Nagar", OPBalance: 39000, PaidThisMonth: 2000, TotalRefunded: 16643, ClosingBalance: 22357, Motivator: "Er.Arshad Husain Khan." },
+    { SNo: 2, WazifaNo: 12471, Name: "Ms-Rifa Fatima.", Place: "Lucknow", OPBalance: 72000, PaidThisMonth: 2000, TotalRefunded: 6000, ClosingBalance: 66000, Motivator: "Mr.Syed Ainul Raza Kararvi." },
+    { SNo: 3, WazifaNo: 4813, Name: "Mr.Syed Mohd Taqui.", Place: "Hardoi", OPBalance: 1210, PaidThisMonth: 1210, TotalRefunded: 1210, ClosingBalance: "NIL", Motivator: "Mr.Syed Ainul Raza Kararvi." },
+    { SNo: 4, WazifaNo: 9245, Name: "Mr.Asghar Husain.", Place: "Amroha", OPBalance: 16800, PaidThisMonth: 1380, TotalRefunded: 4380, ClosingBalance: 12420, Motivator: "Er.Suhail Murtaza." },
+    { SNo: 5, WazifaNo: 8800, Name: "Ms-Deeba.", Place: "Faizabad", OPBalance: 27000, PaidThisMonth: 27000, TotalRefunded: 27000, ClosingBalance: "NIL", Motivator: "Er.Suhail Murtaza." },
+  ],
+  fund: [
+    { SNo: 1, FundNo: 875, FundName: "Mrs.Moeen Fatima.", Place: "Aligarh", Donor: "Mrs.Naheed Zehra Naqvi.", Amount: 10000, Motivator: "Head Office." },
+    { SNo: 2, FundNo: 980, FundName: "Mrs.Meraj Fatima Naqvi.", Place: "Amroha", Donor: "Mr.Naseem Raza Naqvi.", Amount: 25000, Motivator: "Er.Suhail Murtaza." },
+  ],
+  calender: [
+    { SNo: 1, Name: "Mr.Mohd Anwar Ali.", Place: "Bhagalpur", Amount: 500, Motivator: "Self." },
+    { SNo: 2, Name: "Er.Suhail Murtaza.", Place: "Amroha", Amount: 600, Motivator: "Self." },
+  ],
+  khums: [
+    { SNo: 1, DonorName: "Mr.Syed Ahtesham Haider.", Place: "Bhopal", Amount: 500, Motivator: "Prof.Mohd Mohsin." },
+    { SNo: 2, DonorName: "Mrs.Umme Kulsoom.", Place: "Lucknow", Amount: 5000, Motivator: "Mr.Syed Asghar Mehdi Taqvi." },
+    { SNo: 3, DonorName: "Mr.Imran Abbas Jafri.", Place: "Noida", Amount: 14213, Motivator: "Mr.Syed Husain Hamid Rizvi." },
+    { SNo: 4, DonorName: "Mr.Syed Faizan Abdi.", Place: "Jaunpur", Amount: 1200, Motivator: "Dr.Qamar Abbas." },
+    { SNo: 5, DonorName: "Master Kazim Raza.", Place: "Ambedkar Nagar", Amount: 6000, Motivator: "Mr.Mohd Faheem." },
+    { SNo: 6, DonorName: "Mr.Syed Ali Imran.", Place: "Nogawan Sadat", Amount: 50000, Motivator: "Mr.Syed Tayyab Raza." },
+    { SNo: 7, DonorName: "Mr.Syed Iqbal Husain Rizvi.", Place: "Allahabad", Amount: 15000, Motivator: "Head Office." },
+    { SNo: 8, DonorName: "Mr.Syed Taheer Hashmi.", Place: "Aligarh", Amount: 5000, Motivator: "Head Office." },
+    { SNo: 9, DonorName: "Mrs.Meraj Fatima Naqvi.", Place: "Amroha", Amount: 20000, Motivator: "Er.Suhail Murtaza." },
+  ],
+  incomeExpenditure: [
+    { SNo: 1, LocalSecretary: "Prof.Mohd Mohsin.", Place: "Aligarh", Chanda: "", Dawami: "", Life: "", Ayanat: 500, Fund: "", Calender: "", QarzeHasana: "", Khums: "", TotalIncome: 1000, CommLS: "", Postage: "", TotalExp: "" },
+    { SNo: 2, LocalSecretary: "Mr.Mohd Anwar Ali.", Place: "Bhagalpur", Chanda: 240, Dawami: "", Life: "", Ayanat: "", Fund: "", Calender: 500, QarzeHasana: "", Khums: "", TotalIncome: 740, CommLS: 48, Postage: 42, TotalExp: 90 },
+    { SNo: 3, LocalSecretary: "Mr.Syed Asghar Mehdi Taqvi.", Place: "Faizabad", Chanda: "", Dawami: "", Life: "", Ayanat: "", Fund: "", Calender: "", QarzeHasana: "", Khums: 5000, TotalIncome: 5000, CommLS: "", Postage: "", TotalExp: "" },
+    { SNo: 4, LocalSecretary: "Mr.Syed Ali Zaheen Naqvi.", Place: "New Delhi", Chanda: "", Dawami: 1500, Life: 1500, Ayanat: "", Fund: "", Calender: "", QarzeHasana: "", Khums: "", TotalIncome: 3000, CommLS: "", Postage: "", TotalExp: "" },
+    { SNo: 5, LocalSecretary: "Er.Arshad Husain Khan.", Place: "Sri Nagar", Chanda: "", Dawami: "", Life: "", Ayanat: "", Fund: "", Calender: "", QarzeHasana: 2000, Khums: "", TotalIncome: 2000, CommLS: "", Postage: "", TotalExp: "" },
+    { SNo: 6, LocalSecretary: "Mr.Syed Husain Hamid Rizvi.", Place: "Gurgaon", Chanda: "", Dawami: "", Life: "", Ayanat: "", Fund: "", Calender: "", QarzeHasana: "", Khums: 14213, TotalIncome: 14213, CommLS: "", Postage: "", TotalExp: "" },
+    { SNo: 7, LocalSecretary: "Mr.Nazir Haider.", Place: "Karari", Chanda: 570, Dawami: "", Life: 1500, Ayanat: "", Fund: "", Calender: "", QarzeHasana: "", Khums: "", TotalIncome: 2070, CommLS: "", Postage: 70, TotalExp: 70 },
+    { SNo: 8, LocalSecretary: "Dr.Qamar Abbas.", Place: "Jaunpur", Chanda: "", Dawami: "", Life: "", Ayanat: "", Fund: "", Calender: "", QarzeHasana: "", Khums: 1200, TotalIncome: 1200, CommLS: "", Postage: "", TotalExp: "" },
+    { SNo: 9, LocalSecretary: "Mr.Mohd Faheem.", Place: "Ambedkar Nagar", Chanda: "", Dawami: "", Life: "", Ayanat: "", Fund: "", Calender: "", QarzeHasana: "", Khums: 6000, TotalIncome: 6000, CommLS: 600, Postage: "", TotalExp: 600 },
+    { SNo: 10, LocalSecretary: "Mr.Syed Ainul Raza Kararvi.", Place: "Karari", Chanda: "", Dawami: 5000, Life: "", Ayanat: "", Fund: "", Calender: "", QarzeHasana: 3210, Khums: "", TotalIncome: 8210, CommLS: "", Postage: "", TotalExp: "" },
+    { SNo: 11, LocalSecretary: "Mr.Syed Tayyab Raza.", Place: "Noida", Chanda: "", Dawami: "", Life: "", Ayanat: "", Fund: "", Calender: "", QarzeHasana: "", Khums: 50000, TotalIncome: 50000, CommLS: "", Postage: "", TotalExp: "" },
+    { SNo: 12, LocalSecretary: "Er.Suhail Murtaza.", Place: "Amroha", Chanda: "", Dawami: "", Life: "", Ayanat: "", Fund: 25000, Calender: 600, QarzeHasana: 28380, Khums: 20000, TotalIncome: 73980, CommLS: "", Postage: 50, TotalExp: 50 },
+    { SNo: 13, LocalSecretary: "Head Office.", Place: "Aligarh", Chanda: "", Dawami: "", Life: "", Ayanat: "", Fund: 10000, Calender: "", QarzeHasana: "", Khums: 20000, TotalIncome: 30000, CommLS: "", Postage: "", TotalExp: "" },
+  ],
+}
